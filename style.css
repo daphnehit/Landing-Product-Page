@@ -1,0 +1,87 @@
+.media {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+.media .content {
+    flex: 1;
+    padding: 10px;
+    color: black;
+    background-color: pink;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 50px;
+    font-style: inherit;
+    font-weight: 200;
+}
+
+img {
+    width: 450px;
+    align: left;
+}
+.headerlogo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 50px;
+    color: rgb(14, 6, 13);
+    text-decoration: none;
+    list-style: none;
+}
+.headerlink {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: rgb(22, 22, 4);
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;  
+}
+
+body {
+    background-color: rgb(217, 212, 221);
+}
+
+.information {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.information img {
+    width: 250px;
+    border: 5px solid rgb(224, 168, 206);
+    border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(24, 3, 27);
+}
+
+.infotext {
+    color: rgb(9, 19, 27);
+    letter-spacing: 0.7px;
+    font-size: 17px;
+    font-style: inherit;
+    font-variant: initial;
+    font-weight: 200;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(182, 156, 180) ;
+    height: 100px;
+    color: black;
+}
